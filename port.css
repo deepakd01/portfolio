@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #170f0f;
+  }
+  
+  header {
+    background-color: #5f6a74;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  nav {
+    background-color: #34495e;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #069ecc;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about, .Workshop, .skills, .personal {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skills ul li {
+    margin: 5px 0;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .personal ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .personal p {
+    margin: 5px 0;
+    background-color: thistle;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .about ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about p {
+    margin: 5px 0;
+    background-color: rgb(230, 195, 224);
+    border-radius: 5px;
+    padding: 50px;
+    line-height: 1.6;
+  }
+  .Workshop ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .Workshop p {
+    margin: 5px 0;
+    background-color: rgb(133, 208, 221);
+    border-radius: 5px;
+    padding: 30px;
+    line-height: 1.5;
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav a {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+  }
